@@ -1,0 +1,161 @@
+---
+title: Kubernetes Open Sourced
+date: June 7, 2014
+location: Palo Alto, CA 
+description: Kubernetes is released as open source software. It was originally designed by Google based on the Borg project. Kubernetes is a container-orchestration system for automating application deployment, scaling, and management.
+image: kubernetes.png
+link: https://kubernetes.io/
+---
+title: CNCF Announced
+date: July 21, 2015
+location: Portland, OR
+description: Google partners with the Linux Foundation to form the Cloud Native Computing Foundation. Kubernetes 1.0 is released and donated to The Linux Foundation as a seed technology.
+image: cncf.png
+link: https://www.cncf.io/announcement/2015/06/21/new-cloud-native-computing-foundation-to-drive-alignment-among-container-technologies/
+---
+title: First KubeCon
+date: November 9-11, 2015
+location: San Francisco, CA
+description: KubeCon 2015 is the first inaugural community Kubernetes conference, fully dedicated to education and community engagement focused on early Kubernetes, production users and contributors. It took place in San Francisco.
+image: kubecon.png
+link: https://kubecon2015.sched.com/
+---
+title: CNCF Officially Founded
+date: December 17, 2015
+location: San Francisco, CA
+description: The CNCF is officially founded as a Linux Foundation Collaborative Project and organization dedicated to advancing the development of cloud native applications and services. It seeks to improve the overall developer experience, paving the way for faster code reuse, improved machine efficiency, reduced costs and increases in the overall agility and maintainability of applications.
+image: cncf.png
+link: https://www.cncf.io/announcement/2015/12/17/cloud-native-computing-foundation-announces-new-members-begins-accepting-technical-contributions/
+---
+title: Prometheus joins CNCF
+date: May 9, 2016
+location: 
+description: Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and user community.
+image: prometheus.png
+link: https://prometheus.io/
+---
+title: Kubecon + CloudNativeCon NA
+date: November 8-9, 2016
+location: Seattle, WA
+description: The first Kubecon + CloudNativeCon North America brought together more than 1,000 end users, leading contributors and developers from around the world for two days in Seattle to exchange knowledge, best practices, and experiences. There were 108 sessions, keynotes, lightning talks, breakouts, and BoFs.
+image: kccnc.png
+link: https://www.cncf.io/blog/2016/11/17/cloudnativeconkubecon-2016-wrap/
+---
+title: Fluentd joins CNCF
+date: November 8, 2016
+location: 
+description: Fluentd is an open source data collector, which unifies the data collection and consumption for a better use and understanding of data. Fluentd was conceived by Sadayuki Furuhashi, co-founder of Treasure Data, in 2011.
+image: fluentd.png
+link: http://www.fluentd.org/
+---
+title: CoreDNS joins CNCF
+date: February 27, 2017
+location: 
+description: CoreDNS is a DNS server written in Go. It is very flexible, and almost all functionality is outsourced into plugins. Plugins can be stand-alone or work together to perform a "DNS function".
+image: coredns.png
+link: https://coredns.io/
+---
+title: Kubecon + CloudNativeCon EU
+date: March 29-30, 2017
+location: Berlin, Germany
+description: The first Kubecon + CloudNativeCon Europe gathered more than 1,500 end users, leading contributors and developers from around the world for three days in Berlin to exchange Cloud Native knowledge, best practices, and experiences. There were 115 sessions, keynotes, lightning talks, panels, breakouts, and BoFs.
+image: kccnc.png
+link: https://www.cncf.io/blog/2017/04/17/highlights-cloudnativecon-kubecon-europe-2017/
+---
+title: containerd joins CNCF
+date: March 29, 2017
+location: 
+description: Containerd is an industry-standard core container runtime. In 2015, Docker donated the OCI Specification to The Linux Foundation with a reference implementation called runc, and donate the project to CNCF in 2017.
+image: containerd.png
+link: https://containerd.io/
+---
+title: Envoy joins CNCF
+date: September 13, 2017
+location: 
+description: Envoy is a high performance C++ distributed proxy designed for single services and applications, as well as a communication bus and "universal data plane" designed for large microservice "service mesh" architectures. It was originally built at Lyft.
+image: envoy.png
+link: https://www.envoyproxy.io/
+---
+title: Jaeger joins CNCF
+date: September 13, 2017
+location: 
+description: Jaeger is an open source distributed tracing system created by Uber Engineering and inspired by Google Dapper paper and OpenZipkin community. It can be used for tracing microservice-based architectures, including distributed context propagation, distributed transaction monitoring, root cause analysis, service dependency analysis, and performance/latency optimization.
+image: jaeger.png
+link: https://jaegertracing.io/
+---
+title: Kubernetes Certified Service Provider
+date: September, 2017
+location: 
+description: CNCF launches the Kubernetes Certified Service Provider (KCSP) Program to build a network of trusted service providers to assist organizations wishing to adopt Kubernetes. At launch, 22 KCSPs were certified.
+image: kubernetes-kcsp.png
+link: https://www.cncf.io/certification/kcsp/
+---
+title: TUF Joins CNCF
+date: October 24, 2017
+location: 
+description: The Update Framework (TUF) helps developers maintain the security of software update systems, providing protection even against attackers that compromise the repository or signing keys. TUF provides a flexible framework and specification that developers can adopt into any software update system. The basic technology behind TUF was developed at the University of Washington in 2009 by Justin Samuel and Justin Cappos.
+image: tuf.png
+link: https://theupdateframework.io/
+---
+title: Certified Kubernetes Program
+date: November, 2017
+location: 
+description: CNCF launches the Certified Kubernetes program to define and facilitate a consistent experience across Kubernetes distributions. At program launch there were 32 conformant distributions.
+image: certified-kubernetes.png
+link: https://www.cncf.io/certification/software-conformance/
+---
+title: Vitess joins CNCF
+date: February 5, 2018
+location: 
+description: Vitess is a database solution for deploying, scaling and managing large clusters of open-source database instances. It currently supports MySQL and MariaDB. It's architected to run as effectively in a public or private cloud architecture as it does on dedicated hardware. Vitess was originally developed by YouTube.
+image: vitess.png
+link: https://vitess.io/
+---
+title: Kubernetes Training Partner
+date: May, 2018
+location: 
+description: CNCF announces of the Kubernetes Training Partner program, which offers qualified training providers with deep experience in cloud native technology training.
+image: kubernetes-ktp.png
+link: https://www.cncf.io/certification/training/
+---
+title: Helm joins CNCF
+date: June 1, 2018
+location: 
+description: Helm is a package manager that helps developers easily manage and deploy applications onto the Kubernetes cluster. It joined the incubating level in June 2018 and graduated in April 2020.
+image: helm.png
+link: https://www.helm.sh/
+---
+title: Harbor joins CNCF
+date: July 31, 2018
+location: 
+description: Harbor is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
+image: harbor.png
+link: https://goharbor.io/
+---
+title: KubeCon + CloudNativeCon China
+date: November, 2018
+location: Shanghai, China
+description: The first KubeCon + CloudNativeCon China takes place in Shanghai, with more than 2,500 attendees. Asia has seen a spike in of cloud native adoption, so after hosting successful events in Europe and North America the past few years, it's no wonder China was the next stop on the tour.
+image: kccnc-china.png
+link: https://www.cncf.io/blog/2018/12/05/a-look-back-at-kubecon-cloudnativecon-shanghai-2018/
+---
+title: etcd joins CNCF
+date: December, 2018
+location: 
+description: etcd is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.
+image: etcd.png
+link: https://etcd.io/
+---
+title: Kubernetes Community Days
+date: September 13, 2019
+location: Amsterdam, Netherlands
+description: The first Kubernetes Community Days took place in Amsterdam. Kubernetes Community Days are community-organized events that gather adopters and technologists from open source and cloud native communities to learn, collaborate, and network to further the adoption and improvement of Kubernetes.
+image: kubernetes-community-days.png
+link: https://kubernetescommunitydays.org/
+---
+title: Argo joins CNCF
+date: April 7, 2020
+location: 
+description: The Argo project is a set of Kubernetes-native tools for workflows, events, and CI/CD (Continuous Integration and Continuous Delivery). Argo was created in 2017 at Applatix, which was acquired by Intuit in 2018. A few months later, BlackRock contributed Argo Events to the Argo project. 
+image: argo.png
+link: https://argoproj.github.io/
