@@ -30,7 +30,7 @@ header p {
 .cloud-header {
   content: '';
   position: relative;
-  min-height: 87px;
+  min-height: 85px;
   margin-bottom: 25px;
   background: transparent url("img/cloudheader.png") repeat-x bottom left;
 }
