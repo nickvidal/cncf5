@@ -30,7 +30,7 @@ header p {
 .cloud-header {
   content: '';
   position: relative;
-  min-height: 87px;
+  min-height: 86px;
   margin-bottom: 25px;
   background: transparent url("img/cloudheader.png") repeat-x top left;
 }
@@ -38,7 +38,7 @@ header p {
 .cloud-footer {
   content: '';
   position: relative;
-  min-height: 87px;
+  min-height: 86px;
   background: transparent url("img/cloudfooter.png") repeat-x bottom left;
 }
 
