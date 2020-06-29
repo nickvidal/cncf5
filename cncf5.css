@@ -38,7 +38,7 @@ header p {
 .cloud-footer {
   content: '';
   position: relative;
-  min-height: 87px;
+  min-height: 85px;
   background: transparent url("img/cloudfooter.png") repeat-x bottom left;
 }
 
