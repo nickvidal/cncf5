@@ -215,8 +215,9 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    margin-top: 4px;
+
+  header img {
+    width: 100%;
   }
   .timeline::before {
     left: 50px;
