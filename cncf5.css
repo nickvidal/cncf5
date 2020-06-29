@@ -1,0 +1,246 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  background: linear-gradient(90deg,#e00a6b 0,#c80e6a 7.28%,#971667 24.1%,#6d1d64 40.76%,#4d2262 56.93%,#362661 72.49%,#292860 87.15%,#242960 100%);
+}
+
+header {
+  background: white;
+  padding: 25px 0;
+}
+
+header img {
+  width: 50%;
+}
+
+header p {
+  font-family: 'Allura';
+  color: black;
+  font-size: 40px;
+  font-weight: 750;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.cloud-header {
+  content: '';
+  position: relative;
+  min-height: 87px;
+  margin-bottom: 25px;
+  background: transparent url("img/cloudheader.png") repeat-x bottom left;
+}
+
+.cloud-footer {
+  content: '';
+  position: relative;
+  min-height: 87px;
+  background: transparent url("img/cloudfooter.png") repeat-x bottom left;
+}
+
+footer {
+  background: white;
+  padding: 25px;
+}
+
+section {
+  padding: 25px 0;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 25px;
+}
+
+.timeline::before {
+  content: '';
+  background: #336BE3;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 40px 30px 10px 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  left: -15px;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.timeline-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  right: -15px;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #f5f5f5;
+}
+
+.timeline-img {
+  width: 30px;
+  height: 30px;
+  background: url(img/k8s.svg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+.timeline h2 {
+  font-size: 150%;
+}
+
+.timeline a {
+  text-decoration: none;
+}
+
+.timeline a:hover, .timeline a:active, .timeline a:focus {
+  text-decoration: none;
+}
+
+.timeline-card {
+  padding: 0 !important;
+}
+
+.timeline-card p {
+  padding: 0 20px;
+}
+
+.timeline-card a {
+  margin-left: 20px;
+}
+
+.js--fadeInLeft h2 {
+  margin-top: 50px;
+}
+
+.js--fadeInRight h2 {
+  margin-top: 25px;
+}
+
+.timeline-image {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.timeline-image img {
+  max-height: 200px;
+}
+
+.date {
+  background: #336BE3;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px 10px 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-image: url(img/pod.png);
+  background-size: 30px;
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+}
+
+.animate .js--fadeInLeft {
+  animation: anim-left 1s ease-out;
+}
+
+.animate .js--fadeInRight {
+  animation: anim-right 1s ease-out;
+}
+
+@keyframes anim-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anim-right {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    margin-top: 4px;
+  }
+  .timeline::before {
+    left: 50px;
+  }
+  .timeline .timeline-img {
+    left: 50px;
+  }
+  .timeline .timeline-content {
+    max-width: 100%;
+    width: auto;
+    margin-left: 70px;
+  }
+  .timeline .timeline-item:nth-child(even) .timeline-content {
+    float: none;
+  }
+  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+  }
+}
