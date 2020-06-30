@@ -155,11 +155,11 @@ section {
   margin-left: 20px;
 }
 
-.animate.timeline-item:nth-child(even) h2 {
+.timeline-item:nth-child(odd).animate h2 {
   margin-top: 50px;
 }
 
-.animate.timeline-item:nth-child(odd) h2 {
+.timeline-item:nth-child(even).animate h2 {
   margin-top: 25px;
 }
 
@@ -186,11 +186,11 @@ section {
   background-repeat: no-repeat;
 }
 
-.animate.timeline-item:nth-child(odd) .timeline-content {
+.timeline-item:nth-child(odd).animate .timeline-content {
   animation: anim-left 1s ease-out;
 }
 
-.animate.timeline-item:nth-child(even) .timeline-content {
+.timeline-item:nth-child(even).animate .timeline-content {
   animation: anim-right 1s ease-out;
 }
 
@@ -222,18 +222,18 @@ section {
   .timeline::before {
     left: 50px;
   }
-  .timeline .timeline-img {
+  .timeline-img {
     left: 50px;
   }
-  .timeline .timeline-content {
+  .timeline-content {
     max-width: 100%;
     width: auto;
     margin-left: 70px;
   }
-  .timeline .timeline-item:nth-child(even) .timeline-content {
+  .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+  .timeline-item:nth-child(odd) .timeline-content::after {
     content: '';
     position: absolute;
     border-style: solid;
