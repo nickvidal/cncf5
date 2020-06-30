@@ -155,11 +155,11 @@ section {
   margin-left: 20px;
 }
 
-.js--fadeInLeft h2 {
+.animate.timeline-item:nth-child(even) h2 {
   margin-top: 50px;
 }
 
-.js--fadeInRight h2 {
+.animate.timeline-item:nth-child(odd) h2 {
   margin-top: 25px;
 }
 
@@ -186,11 +186,11 @@ section {
   background-repeat: no-repeat;
 }
 
-.animate .js--fadeInLeft {
+.animate.timeline-item:nth-child(odd) .timeline-content {
   animation: anim-left 1s ease-out;
 }
 
-.animate .js--fadeInRight {
+.animate.timeline-item:nth-child(even) .timeline-content {
   animation: anim-right 1s ease-out;
 }
 
