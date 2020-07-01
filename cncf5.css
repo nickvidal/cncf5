@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: white;
+  background-color: white;
   padding: 25px 0;
 }
 
@@ -43,7 +43,7 @@ header p {
 }
 
 footer {
-  background: white;
+  background-color: white;
   padding: 25px;
 }
 
@@ -58,7 +58,7 @@ section {
 
 .timeline::before {
   content: '';
-  background: #336BE3;
+  background-color: #336BE3;
   width: 5px;
   height: 100%;
   position: absolute;
@@ -104,7 +104,7 @@ section {
   width: 45%;
   padding: 10px 30px;
   border-radius: 4px;
-  background: #f5f5f5;
+  background-color: #f5f5f5;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 
@@ -123,7 +123,7 @@ section {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: url(img/k8s.svg);
+  background-image: url(img/k8s.svg);
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -141,18 +141,6 @@ section {
 
 .timeline a:hover, .timeline a:active, .timeline a:focus {
   text-decoration: none;
-}
-
-.timeline-card {
-  padding: 0 !important;
-}
-
-.timeline-card p {
-  padding: 0 20px;
-}
-
-.timeline-card a {
-  margin-left: 20px;
 }
 
 .timeline-item:nth-child(odd).animate h2 {
@@ -173,17 +161,17 @@ section {
 }
 
 .date {
-  background: #336BE3;
+  background-color: #336BE3;
+  background-image: url(img/pod.png);
+  background-size: 30px;
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
   display: inline-block;
   color: white;
   padding: 10px 10px 10px 50px;
   position: absolute;
   top: 0px;
   right: 0px;
-  background-image: url(img/pod.png);
-  background-size: 30px;
-  background-position: 10px 7px;
-  background-repeat: no-repeat;
 }
 
 .timeline-item:nth-child(odd).animate .timeline-content {
