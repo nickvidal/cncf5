@@ -160,6 +160,10 @@ section {
   max-height: 200px;
 }
 
+.timeline-content btn {
+  margin-bottom: 30px;
+}
+
 .date {
   background-color: #336BE3;
   background-image: url(img/pod.png);
