@@ -189,7 +189,7 @@ section {
 @keyframes anim-left {
   0% {
     opacity: 0;
-    transform: translateX(-10rem);
+    transform: translateX(-1rem);
   }
   100% {
     opacity: 1;
@@ -199,7 +199,7 @@ section {
 @keyframes anim-right {
   0% {
     opacity: 0;
-    transform: translateX(10rem);
+    transform: translateX(1rem);
   }
   100% {
     opacity: 1;
